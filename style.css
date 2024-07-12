@@ -1,0 +1,57 @@
+        body{
+            padding: 0%;
+            margin: 0%;
+            background-image: url(background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .main{
+            width: 500px;
+            height: 600px;
+            margin-top: 50px;
+            backdrop-filter: blur(5px);
+            box-shadow: 10px 10px 10px 10px black;
+        }
+        .img1{
+            width: 200px;
+        }
+        .h1{
+            color: rgb(249, 0, 224);
+            
+        }
+        p{
+            color: rgb(255, 255, 255);
+        }
+        .h2{
+            color: rgb(249, 0, 224);
+        }
+        #inp1,#inp3{
+            width: 300px;
+            height: 30px;
+        }
+        #password{
+            width: 250px;
+            height: 25px;
+            outline: none;
+            border: none;
+        }
+        #inp4{
+            width: 200px;
+            height: 30px;
+            border-radius: 20px;
+            background-color:  rgb(249, 0, 224);
+            color: aliceblue;
+        }
+        .eyediv{
+            width: 305px;
+            height: 35px;
+            background-color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .eye{
+            width: 20px;
+            margin-top: 2px;
+            cursor: pointer;
+        }
